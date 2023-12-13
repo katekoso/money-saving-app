@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/Home";
+import HomePage from "./pages/HomePage";
 import CreateGoalPage from "./pages/CreateGoal";
 import GoalPage from "./pages/Goal";
 import HelpPage from "./pages/Help";
