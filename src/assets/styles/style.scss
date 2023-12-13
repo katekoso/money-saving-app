@@ -1,1 +1,18 @@
-$primary-color: #BFE4F9;
+$primary-color: #bfe4f9;
+$color_blue_light: #009fdf;
+$color_blue: #0a2973;
+$color_grey_light: #ededed;
+$color_black: #292929;
+$color_white: #ffffff;
+
+$font_Inter: "Inter", sans-serif;
+
+@mixin basic-item {
+  background-color: $color_white;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
