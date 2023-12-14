@@ -1,4 +1,45 @@
-* {
+@import "../../assets/styles/style.scss";
+
+.navigation {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: $color_white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navigation__logo {
+  background-image: url(../../images/money_y273or5gro6w.svg);
+  width: 86px;
+  height: 86px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navigation_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__icon {
+  width: 86px;
+  height: 86px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.navigation__icon_name_plus {
+  margin-bottom: 80px;
+}
+
+.navigation__icon_name_setting {
+  margin-bottom: 100px;
 }
