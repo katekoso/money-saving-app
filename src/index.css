@@ -1,0 +1,7 @@
+@import "./assets/styles/style.scss";
+
+.page {
+  /* background-color: $color_grey_light; */
+  background-color: #ededed;
+  display: flex;
+}
