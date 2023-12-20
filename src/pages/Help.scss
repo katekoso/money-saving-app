@@ -20,34 +20,3 @@
   width: 100%;
   justify-content: center;
 }
-
-.help__item {
-  display: flex;
-  @include basic-item;
-  border: 1px solid $color_grey_light;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  text-align: center;
-  padding: 146px 48px;
-  max-width: 330px;
-}
-
-.help__title {
-  color: $color_blue;
-  font-family: $font_Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-
-.help__discription {
-  color: $color_black;
-  font-family: $font_Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  max-width: 230px;
-}
