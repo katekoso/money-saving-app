@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "targets",
+  "info": {
+    "singularName": "target",
+    "pluralName": "targets",
+    "displayName": "target",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sum": {
+      "type": "integer",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "priority": {
+      "type": "enumeration",
+      "enum": [
+        "min",
+        "med",
+        "max"
+      ],
+      "default": "med",
+      "required": true
+    },
+    "priorityTime": {
+      "type": "enumeration",
+      "enum": [
+        "short",
+        "long"
+      ],
+      "default": "short",
+      "required": true
+    },
+    "start": {
+      "type": "date"
+    },
+    "finish": {
+      "type": "date"
+    },
+    "currentSum": {
+      "type": "integer",
+      "default": 0
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
