@@ -1,0 +1,30 @@
+// @import "/assets/styles/style.scss";
+@import "/src/assets/styles/style";
+
+.card {
+    border-radius: 10px;
+    background: $color_white;
+    padding: 30px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    height: 498px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__title {
+        color: $color_blue_light;
+        font-family: $font_Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        /* 41.6px */
+    }
+
+    &__link {}
+}

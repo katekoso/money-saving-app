@@ -7,6 +7,10 @@ $color_white: #ffffff;
 
 $font_Inter: "Inter", sans-serif;
 
+* {
+  box-sizing: border-box;
+}
+
 @mixin basic-item {
   background-color: $color_white;
   border-radius: 10px;
