@@ -1,0 +1,22 @@
+
+@import "../assets/styles/style.scss";
+
+.help {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  @include basic-item;
+  padding-left: 64px;
+  padding-top: 128px;
+  padding-bottom: 94px;
+  padding-right: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 4fr));
+  gap: 41px;
+  margin-top: 92px;
+  margin-right: 105px;
+  margin-left: 85px;
+  margin-bottom: 90px;
+  width: 100%;
+  justify-content: center;
+}
